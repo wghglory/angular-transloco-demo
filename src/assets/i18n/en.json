@@ -1,0 +1,7 @@
+{
+  "HELLO": "hello {{value}}",
+  "common": {
+    "PLAY": "play {{0}}",
+    "link": "<a href='https://google.com'>Google</a>"
+  }
+}

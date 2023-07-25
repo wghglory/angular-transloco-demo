@@ -1,0 +1,7 @@
+{
+  "HELLO": "你好 {{value}}",
+  "common": {
+    "PLAY": "玩 {{ball}}",
+    "link": "<a href='https://google.com'>谷歌</a>"
+  }
+}

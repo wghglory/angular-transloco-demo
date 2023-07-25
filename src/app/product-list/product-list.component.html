@@ -1,0 +1,15 @@
+<div>{{ 'HELLO' | transloco: { value: 'world' } }}</div>
+
+<div>{{ 'common.PLAY' | transloco: { '0': 'basketball' } }}</div>
+
+<div [innerHTML]="'common.link' | transloco"></div>
+
+<p>Preferred Way:</p>
+<ng-container *transloco="let t">
+  <div>{{ t('HELLO', { value: 'world' }) }}</div>
+</ng-container>
+
+<hr />
+
+<div>{{ test$ | async }}</div>
+<div [innerHTML]="link$ | async"></div>
